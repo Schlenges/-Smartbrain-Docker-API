@@ -14,5 +14,6 @@ Using Docker:
 4. Run `docker-compose up --build`
 
 ## Usage
-The API communicates with a postgres database that is already populated with a test user. Once you start up the frontend, you can either log in with the email `test@gmail.com` and the password `test` or simply register as a new user.
+Clone the frontend for the application [here](https://github.com/mhanki/SmartBrain-React).  
+The API communicates with a PostgreSQL database that is already populated with a test user. Once you start up the frontend, you can either log in with the email `test@gmail.com` and the password `test` or simply register as a new user.
 

@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_URI: postgres://test:test@smart-brain-db:5432/smart-brain-docker
     ports:
-      - "3000:3000"
+      - "5000:5000"
     volumes:
       - ./:/usr/src/smart-brain-api
 

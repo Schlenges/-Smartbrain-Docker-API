@@ -2,7 +2,7 @@ version: '2.1.1'
 services:
   # Backend API
   smart-brain-api:
-    container_name: backend
+    container_name: smartbrain-backend
     build: ./
     command: npm start
     working_dir: /usr/src/smart-brain-api
@@ -15,7 +15,7 @@ services:
 
   # Postgresql
   smart-brain-db:
-    container_name: database
+    container_name: smartbrain-database
     build: ./postgres
     environment:
       POSTGRES_USER: test
